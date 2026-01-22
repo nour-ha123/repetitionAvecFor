@@ -20,7 +20,7 @@ factorielleDeN(5);
 
 //ex3
 function répéterChaîne(chaine, nombre) {
-    repeter = ""
+    var repeter = ""
     for (var i = nombre; i > 0; i--)  {
         repeter = repeter + chaine
     }
@@ -30,7 +30,7 @@ répéterChaîne("hi",5);
 
 // ex4
 function sommeMinÀMax(minimum, maximum) {
-    somme = 0
+    var somme = 0
     for ( var i = minimum; i < maximum ; i++)  {
         somme = somme + i
     }
@@ -40,7 +40,7 @@ sommeMinÀMax(1,5);
 
 // ex5
 function produitMinÀMax(minimum, maximum) {
-    somme = 1
+    var somme = 1
     for ( var i = minimum; i < maximum ; i++)  {
         somme = somme * i
     }
